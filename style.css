@@ -1,0 +1,112 @@
+body{
+	background-color:#fff;
+	font-family: Calibri, "sans serif";
+}
+	
+p, #text li{
+	font-size:15px;
+}
+
+#wrapper{
+	width:80%;
+	height:auto;
+	margin:20px auto;
+	background-color:#fff;
+	border: 1.5px solid #eee;
+	font-family: 'Gentium Basic';
+}
+			
+header{
+	overflow:hidden;
+	background-color:#000000;
+	border: 17px solid;
+}
+	
+			
+header h1{
+	color: white;
+	font-size:45px;
+	text-align:center;
+	text-shadow: 5px 5px 5px #000;
+	}
+	
+section {
+	font-family: 'Gentium Basic';
+}
+section h1 {
+	font-size:25px;
+	text-shadow: 1px 1px 1px #000;
+}		
+section h4 {
+	font-size:15px;
+	text-shadow: 1px 1px 1px #000;
+} 
+
+						
+nav  a{
+	display:block;
+	background-color:#000;
+	text-align: center; 
+	color: #fff;
+	float:left;
+	width:25%;
+	padding: 10px 0;
+	text-decoration:none;
+}
+	
+
+nav a:hover{
+	background-color:#421420;
+}
+
+nav .chosen{
+	background-color:#421420;
+}
+
+			
+#text{
+	width:95%;
+	padding: 0 20px;
+	overflow:hidden;
+}
+
+#movies a{
+	font-size:17px;
+	color:#660000
+}
+	
+img{
+	margin: 8px 0 8px 10px;
+	width:35%;
+	float:right;
+	border: 5px solid #000;
+}
+			
+
+footer{
+	border-top:1px solid #999;
+	text-align:center;
+}
+
+@media (max-width: 600px){
+	section{
+		width:100%;
+	}
+}
+
+@media (max-width: 360px){
+	nav  a{
+		float:none;
+		width:100%;
+	}
+}
+
+@media (max-width: 1024px){
+	body{
+		margin:0px;
+	}
+	#wrapper{
+		margin:0px;
+		width:100%;
+	} 
+} 
