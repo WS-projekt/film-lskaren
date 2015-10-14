@@ -24,7 +24,7 @@
 					<a href="best.tpl">Bäst</a>
 			</nav>
 			<section>
-		
+		<div> Här ska in ett API  </div> <div> Här ska in ett API </div>
 			</section>
 			<footer>
 				<p>Coypright 2015</p>
