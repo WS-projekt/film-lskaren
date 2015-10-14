@@ -18,10 +18,10 @@
 			
 				
 			<nav> 	
-					<a href="index.html" class="chosen">Startsida</a>
-					<a href="text.html">Text</a>
-					<a href="text.html">Text</a>
-					<a href="text.html">Text</a>
+					<a href="index.tpl" class="chosen">Startsida</a>
+					<a href="text.tpl">Text</a>
+					<a href="test.tpl">Test</a>
+					<a href="best.tpl">Bäst</a>
 			</nav>
 			<section>
 		

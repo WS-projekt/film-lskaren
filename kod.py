@@ -1,0 +1,38 @@
+# -*- coding: utf8 -*-x
+#authors: Emma, Sandra, Linnea
+"""from bottle import *"""
+from bottle import *
+import re, sys, mysql.connector
+import json
+
+
+
+"""STARTSIDAN"""
+@route('/')
+def startsida():
+        """Kör startsidan"""
+        return template("index")
+
+
+"""KONTAKTA OSS"""
+@route('/')
+def text():
+        """TEXT TEXT TEXT"""
+        return template("text")
+
+
+@route('/')
+def test():
+        """TEST TEST  TEST"""
+        return template("test")
+
+
+@route('/')
+def best():
+        """BEST BEST BEST"""
+        return template("best")
+
+5
+
+
+run(debug=True, reloader=True, host='localhost', port=8080)
